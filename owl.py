@@ -5,22 +5,22 @@ import random
 import math
 
 #  ---2-
-# 6    3
+# 6    7
 # |    |
-#  --7-
+#  --5-
 # |    |
-# 5    0
-# ---4-  [1]
+# 3    1
+# ---4-  [0]
 
 SEGMENTS = 8
-OPEN = [LOW, HIGH, LOW, LOW, LOW, LOW, LOW, HIGH]
-CLOSED = [HIGH, HIGH, HIGH, HIGH, HIGH, HIGH, HIGH, LOW]
-TEST = [LOW, HIGH, LOW, HIGH, LOW, HIGH, LOW, HIGH]
+OPEN = [HIGH, LOW, LOW, LOW, LOW, HIGH, LOW, LOW]
+CLOSED = [HIGH, HIGH, HIGH, HIGH, HIGH, LOW, HIGH, HIGH]
+TEST = [HIGH, HIGH, HIGH, HIGH, HIGH, HIGH, HIGH, LOW]
 
 ser = 7
 srck = 29
-srclr_bar = 31
-rck = 26
+srclr_bar = 26
+rck = 31
 gbar = 24
 
 #GPIO.setwarnings(False)
